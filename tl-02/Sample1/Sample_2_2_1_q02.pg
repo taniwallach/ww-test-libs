@@ -1,0 +1,43 @@
+## DESCRIPTION
+## This is a sample problem created to test library database related code
+## It is in the public domain and can be freely modified and used.
+## ENDDESCRIPTION
+
+## DBsubject('Subject 2')
+## DBchapter('Sub 2 Chapter 2')
+## DBsection('Sub 2 Ch 2 Section 1')
+## KEYWORDS()
+
+## TitleText1('')
+## EditionText1('')
+## AuthorText1('')
+## Section1('')
+## Problem1('')
+## Author('')
+## Institution('public')
+
+
+
+########################################################################
+
+DOCUMENT();      
+
+loadMacros(
+  "PGstandard.pl",
+  #"PGchoicemacros.pl",
+  "PGcourse.pl"
+);
+
+# Print problem number and point value (weight) for the problem
+TEXT(beginproblem());
+
+BEGIN_TEXT
+
+Dummy problem 2 for 
+Subject 2 
+Chapter 2 
+Section 1
+
+END_TEXT
+
+ENDDOCUMENT();        

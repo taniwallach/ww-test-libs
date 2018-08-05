@@ -1,0 +1,20 @@
+# Comments start with #
+# The first line of a new text is TitleText
+# Edition and Author must be there too
+# Blank lines are only for decoration
+
+TitleText('Linear Algebra with Applications')
+EditionText('1')
+AuthorText('Jeffrey Holt')
+
+1   >>> Systems of Linear Equations
+1.1 >>> Lines and Linear Equations
+1.2 >>> Linear Systems and Matrices
+1.3 >>> Numerical Solutions
+1.4 >>> Applications of Linear Systems
+
+2   >>> Euclidean Space
+2.1 >>> Vectors
+2.2 >>> Span
+2.3 >>> Linear Independence
+
